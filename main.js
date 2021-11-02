@@ -184,6 +184,6 @@ document.querySelector("#add").addEventListener("click", () => {
 
     xml.children[0].append(element);
     groups = xml.getElementsByTagName('group');
-    groupSelect.innerHTML = "";
+    // groupSelect.innerHTML = "";
     fillGroups();
 })
